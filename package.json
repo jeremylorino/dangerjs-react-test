@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "run:danger:local": "yarn danger local --base main --staging --text-only"
   },
   "eslintConfig": {
     "extends": [
